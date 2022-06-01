@@ -51,22 +51,22 @@ GCP c фенсингом https://github.com/ClusterLabs/fence-agents/blob/master
 
 Здесь можно увидеть состояние кластера:
 
-![Image 1](https://raw.githubusercontent.com/staybox/hl-linux-2022-HW2/master/screenshots/pcs_status.png)
+![Image 1](https://raw.githubusercontent.com/staybox/hl-linux-2022-HW2/main/screenshots/pcs_status.png)
 
-![Image 2](https://raw.githubusercontent.com/staybox/hl-linux-2022-HW2/master/screenshots/pcs_cluster_status.png)
+![Image 2](https://raw.githubusercontent.com/staybox/hl-linux-2022-HW2/main/screenshots/pcs_cluster_status.png)
 
 Здесь мы видим что успешно примонтирована файловая система GFS2:
 
-![Image 3](https://raw.githubusercontent.com/staybox/hl-linux-2022-HW2/master/screenshots/mount_gfs2.png)
+![Image 3](https://raw.githubusercontent.com/staybox/hl-linux-2022-HW2/main/screenshots/mount_gfs2.png)
 
 Далее мы можем посмотреть что у нас есть связь с ISCSI хостом, на котором располагается хранилище:
 
-![Image 4](https://raw.githubusercontent.com/staybox/hl-linux-2022-HW2/master/screenshots/multipath_list.png)
+![Image 4](https://raw.githubusercontent.com/staybox/hl-linux-2022-HW2/main/screenshots/multipath_list.png)
 
 Можем увидеть структуру наших блочных устройств:
 
-![Image 5](https://raw.githubusercontent.com/staybox/hl-linux-2022-HW2/master/screenshots/lsblk.png)
+![Image 5](https://raw.githubusercontent.com/staybox/hl-linux-2022-HW2/main/screenshots/lsblk.png)
 
 В веб интерфейсе вашей консоли Яндекс Облака будет видно следующее:
 
-![Image 6](https://raw.githubusercontent.com/staybox/hl-linux-2022-HW2/master/screenshots/yandex_vms.png)
+![Image 6](https://raw.githubusercontent.com/staybox/hl-linux-2022-HW2/main/screenshots/yandex_vms.png)
