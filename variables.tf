@@ -12,6 +12,6 @@ variable "data" {
   type = map(any)
   default = {
     count   = 3
-    account = "service-account"
+    account = "<INSERT ACCOUNT NAME>"
   }
 }
