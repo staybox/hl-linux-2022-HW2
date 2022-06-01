@@ -34,11 +34,13 @@ GCP c фенсингом https://github.com/ClusterLabs/fence-agents/blob/master
 
 5. Привести к необходимому виду файл ```meta.yml```, внеся в него ваш открытый ssh ключ, а также имя вашего пользователя
 
-6. Выполнить команду ```terraform init``` в папке проекта
+6. Добавить пользователя в файл ```ansible.cfg``` 
 
-7. Выполнить команду ```terraform apply```. Перед использование команды ```terraform apply```, рекомендуется использовать ```terraform plan```
+7. Выполнить команду ```terraform init``` в папке проекта
 
-ПРИМЕЧАНИЕ: Имя аккаунта должно совпадать во всех конфигурационных файлах - ```variables.tf``` и ```meta.yml```
+8. Выполнить команду ```terraform apply```. Перед использование команды ```terraform apply```, рекомендуется использовать ```terraform plan```
+
+ПРИМЕЧАНИЕ: Имя аккаунта должно совпадать во всех конфигурационных файлах - ```variables.tf``` и ```meta.yml```. Также оно должно совпадать в файле ```ansible.cfg```
 
 Команда для более быстрой подготовки к запуску:
 ```mkdir hl-linux-2022-HW2 && cd hl-linux-2022-HW2 && git clone https://github.com/staybox/hl-linux-2022-HW2.git && terraform init && terraform validate```
